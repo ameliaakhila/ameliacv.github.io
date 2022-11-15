@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB Gabut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="gambar/sl.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">AMELIA</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li class="point"><a href="#about">ABOUT</a></li>
+          <li class="point"><a onclick="redirWhatsapp()">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+    </header>
+
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Amelia Akhila Here!</p>
+        <p class="description">Technology Influencer</p>
+        <img src="gambar/fotoamel.jpeg" alt="amelia foto" class="img-foto" />
+      </div>
+    </div>
+
+    <div class="parallax">
+      <div class="ttg">
+        <p class="title">Saya Adalah Programmer</p>
+        <p class="description">Ngoding karena gabut, jalur ninjaku</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari kerjasama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="about">
+          <div class="card-item">
+            <img src="gambar/1.png" alt="icon 1" class="icon" />
+            <p class="card-title">Saya suka makan</p>
+            <p class="card-description">
+              Makan adalah cara terbaik mendapatkan inspirasi
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="gambar/2.png" alt="icon 2" class="icon" />
+            <p class="card-title">Saya suka menyanyi</p>
+            <p class="card-description">
+              Menyanyi merupakan cara saya mengekspresikan diri saya
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="gambar/3.png" alt="icon 3" class="icon" />
+            <p class="card-title">Saya suka ngoding</p>
+            <p class="card-description">
+              Mempelajari pemmograman adalah cara saya menghilangkan stres
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Amelia Akhila Website 2022</p>
+    </footer>
+
+    <script class="script">
+      function redirInstagram() {
+        window.location.href = "https://www.instagram.com/ameliaa.o_c";
+      }
+
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6288291375357";
+      }
+    </script>
+  </body>
+</html>
