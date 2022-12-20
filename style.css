@@ -117,7 +117,7 @@ a {
 }
 
 .parallax {
-  background-image: url(gambar/bg.png);
+  background-image: url(index/bg.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
