@@ -10,8 +10,6 @@ ameliaakhila29@gmail.com | https://ameliaakhila.github.io/ameliacv.github.io/ | 
 
 Saya merupakan mahasiswa aktif semester 4
 
-[Ringkasan singkat tentang keahlian, pengalaman, dan pencapaian Anda yang relevan dengan pekerjaan impian Anda. Sebutkan 2-3 poin penting.]
-
 ## Skills
 ### 💻 OS
 ![](https://img.shields.io/badge/Windows-0078D6.svg?logo=Windows&logoColor=black)
