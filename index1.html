@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB Gabut</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <header class="bg-light text-dark">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <div class="logo d-flex align-items-center">
+                <img src="index/sl.png" alt="logo" class="logo-img" />
+                <h1 class="logo-title">AMELIA</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" onclick="redirWhatsapp()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary" onclick="redirInstagram()">Follow Me</button>
+        </div>
+    </header>
+
+    <div class="container text-center my-5">
+        <div class="intro">
+            <p class="title display-4">Hello, Amelia Akhila Here!</p>
+            <p class="description lead">Technology Influencer</p>
+            <img src="index/me.png" alt="amelia foto" class="img-fluid rounded-circle" />
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="ttg text-center">
+            <p class="title display-4">Saya Adalah Programmer</p>
+            <p class="description lead">Ngoding karena gabut, jalur ninjaku</p>
+            <div class="mt-4">
+                <button class="btn btn-primary" onclick="redirWhatsapp()">Mari kerjasama</button>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row" id="about">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card card-item">
+                        <img src="index/1.png" alt="icon 1" class="icon card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Saya suka makan</h5>
+                            <p class="card-text">Makan adalah cara terbaik mendapatkan inspirasi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card card-item">
+                        <img src="index/2.png" alt="icon 2" class="icon card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Saya suka menyanyi</h5>
+                            <p class="card-text">Menyanyi merupakan cara saya mengekspresikan diri saya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card card-item">
+                        <img src="index/3.png" alt="icon 3" class="icon card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Saya suka ngoding</h5>
+                            <p class="card-text">Mempelajari pemmograman adalah cara saya menghilangkan stres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-dark text -center py-3">
+        <p class="title">&copy; Amelia Akhila Website 2022</p>
+    </footer>
+
+    <script class="script">
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/ameliaa.o_c";
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/1234567890"; // Ganti dengan nomor WhatsApp Anda
+        }
+    </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-+0n0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0g0"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-5s8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
